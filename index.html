@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
 
-<head></head>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Chewy&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="json.js" defer></script>
+</head>
 
 <body>
-    <h1>Astronomy Picture of the Day</h1>
-    <p>
-        <a href="archivepix.html">Discover the cosmos!</a> Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.
-    </p>
-    <p id="data"></p>
-    <img id="imagem">
-    <footer id="rodape"></footer>
+    <header>
+        <h1>Picture of the Day
+            <span id="data"></span>
+        </h1>
+    </header>
+    <div class="form">
+        <img id="imagem">
+    </div>
+    <div id="rodape"></div>
     <div id="descricao"></div>
 
     <script src="json.js"></script>

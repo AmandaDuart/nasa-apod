@@ -9,7 +9,7 @@ requisicao.onload = function() { // essa função anonima é callback
         console.log(objeto);
 
         let data = document.getElementById('data');
-        data.textContent = `Data ${objeto.date}`;
+        data.textContent = objeto.date;
 
         let imagem = document.getElementById('imagem');
         imagem.src = objeto.url;

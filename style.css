@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1a457952;
+    color: aliceblue;
+    background-image: url("fundo3.jpg");
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("ceu.gif");
+    width: 100%;
+    font-family: 'Righteous', cursive;
+}
+
+#rodape {
+    color: #000;
+    background-color: #f1f1f1d9;
+    width: 100%;
+    height: 70%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
+}
+
+#descricao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: #000;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: justify-all;
+    background-color: #f1f1f1d9;
+    border-radius: 10px;
+}
+
+#imagem {
+    width: 50%;
+    height: 50%;
+}
+
+h2 {
+    color: #1a4579;
+}
+
+.form {
+    margin-top: 20px;
+}
