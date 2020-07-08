@@ -1,8 +1,7 @@
-let requisicao = new XMLHttpRequest(); // criando o obj que faz a requisição
-requisicao.open("GET", 'https://api.nasa.gov/planetary/apod?api_key=ybrAVis1BdCCRmeIvbCvlIj4vuCIAgcY3d658OkH'); //abrindo req
+let requisicao = new XMLHttpRequest();
+requisicao.open("GET", "https://api.nasa.gov/planetary/apod?api_key=ybrAVis1BdCCRmeIvbCvlIj4vuCIAgcY3d658OkH");
 
-// TRATAR OS EVENTOS ANTES DE ENVIAR A REQUISIÇÃO !!!
-requisicao.onload = function() { // essa função anonima é callback 
+requisicao.onload = function() {
     if (this.status == 200) {
 
         let objeto = JSON.parse(requisicao.responseText);

@@ -27,6 +27,10 @@ header {
     font-weight: bold;
 }
 
+#data {
+    padding-right: 20px;
+}
+
 #descricao {
     display: flex;
     align-items: center;
@@ -37,6 +41,25 @@ header {
     text-align: justify-all;
     background-color: #f1f1f1d9;
     border-radius: 10px;
+}
+
+#datinha {
+    background-color: #da9db8;
+    border-radius: 5px;
+    border: 2px solid #f1f1f1;
+    font-weight: bold;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#buttondata {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    border: 2px solid #da9db8;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 #imagem {
